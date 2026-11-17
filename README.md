@@ -392,36 +392,30 @@ Uno de los aprendizajes más importantes ha sido comprobar que **una fórmula co
 
 ## 📂 Estructura del repositorio
 
-Estructura propuesta para la publicación:
-
 ```text
-Reto_02_Analisis_de_Pedidos/
+powerbi-analisis-pedidos/
 │
 ├── README.md
-│
-├── PowerBI/
-│   └── Reto_02_Analisis_de_Pedidos.pbix
-│
-├── Data/
-│   └── IntroPowerBI-CasoPractico_Datos/
-│       ├── Clientes.xlsx
-│       ├── Productos.xlsx
-│       ├── Vendedores.xlsx
-│       └── Pedidos/
-│           ├── Pedidos2018.xlsx
-│           ├── Pedidos2019.xlsx
-│           ├── Pedidos2020.xlsx
-│           ├── Pedidos2021.xlsx
-│           └── Pedidos2022.xlsx
-│
-└── Images/
-    ├── Dashboard.png
-    ├── Analisis.png
-    ├── Reporting.png
-    └── Tooltip.png
+├── Reto_02_Analisis_de_Pedidos.pbix
+├── Images/
+│   ├── Analisis.png
+│   ├── Dashboard.png
+│   ├── Detalle.png
+│   ├── Reporting.png
+│   └── Tooltip.png
+└── IntroPowerBI-CasoPractico_Datos/
+    ├── Clientes.xlsx
+    ├── Productos.xlsx
+    ├── Vendedores.xlsx
+    └── Pedidos/
+        ├── Pedidos2018.xlsx
+        ├── Pedidos2019.xlsx
+        ├── Pedidos2020.xlsx
+        ├── Pedidos2021.xlsx
+        └── Pedidos2022.xlsx
 ```
 
-El archivo de Power BI definitivo se preparará a partir de la versión de trabajo `Reto_2_Analisis_de_Pedidos_BACKUP.pbix`.
+El archivo `.pbix` contiene el informe completo de Power BI. La carpeta `Images` reúne las capturas de sus cinco páginas y `IntroPowerBI-CasoPractico_Datos` conserva los archivos Excel originales utilizados en el análisis.
 
 ## 🚀 Cómo abrir el proyecto
 
